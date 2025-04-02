@@ -1,7 +1,7 @@
 // Mock data store
 let users = [
-  { id: 1, name: 'John Doe', email: 'john@example.com' },
-  { id: 2, name: 'Jane Smith', email: 'jane@example.com' },
+  { id: 1, name: 'John Doe', email: 'john@example.com', phone:"",tin: "", nationalId: "", address:"" },
+  { id: 2, name: 'Jane Smith', email: 'jane@example.com',phone:"",tin: "", nationalId: "", address:"" },
 ];
 
 

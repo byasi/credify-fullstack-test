@@ -13,6 +13,10 @@ const UserList = ({ users, onEdit, onDelete }) => {
           <div key={user.id} className="user-card">
             <h3>{user.name}</h3>
             <p>{user.email}</p>
+            <p>{user.phone}</p>
+            <p>{user.tin}</p>
+            <p>{user.nationalId}</p>
+            <p>{user.address}</p>
             <div className="user-actions">
               <button
                 className="btn-secondary"
